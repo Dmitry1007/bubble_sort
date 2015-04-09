@@ -6,9 +6,11 @@ Theory
 Bubble sort works by comparing and possibly swapping two values in a set. Say we start with this set of numbers:
 
 1 0 2 3 4 5
+
 The algorithm would start with a variable previous pointing to the first element, 1 and current pointing to the second value 0. Then if current is less than previous then the two values are swapped. The swap would take place in this case. After that single swap the sequence would be:
 
 0 1 2 3 4 5
+
 The algorithm would restart with previous pointing at the first position and current at the second position. 1 is not less than 0, so the focus shifts one spot to the right. previous now holds 1 and current holds 2. They do not need to be swapped. This repeats moving right one space at a time until reaching the end of the set, meaning the set is sorted.
 
 Challenge 1: Without Custom Classes
